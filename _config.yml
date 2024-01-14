@@ -12,23 +12,23 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Dev.Kwon"
-title_separator          : 
-subtitle                 : 개발자가 되려는 JeHan's 블로그
-name                     : &name KwonJeHan
-description              : Personal
+title_separator          : "|"
+subtitle                 : "Jehan's dev-blog"
+name                     : &name JehanKwon
+description              : "권제한의 블로그입니다."
 url                      : "https://KwonJeHan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/computer.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 future                   : true
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -97,9 +97,9 @@ analytics:
 author:
   name             : *name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : 미래 개발자를 꿈꾸는 블로그
-  location         : South Korea
-  email            : rnjswpgks@gmail.com
+  bio              : "권제한의 개발 블로그입니다."
+  location         : "South Korea"
+  email            : "rnjswpgks@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -281,3 +281,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
