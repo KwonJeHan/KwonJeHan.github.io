@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Dev.Kwon"
 title_separator          : "|"
 subtitle                 : "Jehan's dev-blog"
-name                     : &name JehanKwon
+name                     : &name JHKwon
 description              : "권제한의 블로그입니다."
 url                      : "https://KwonJeHan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -33,7 +33,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "KwonJeHan" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "KwonJehan" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
