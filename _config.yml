@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Dev.Kwon"
 title_separator          : "|"
 subtitle                 : "Jehan's dev-blog"
-name                     : &name JHKwon
+name                     : &name KwonJehan
 description              : "권제한의 블로그입니다."
 url                      : "https://KwonJeHan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
